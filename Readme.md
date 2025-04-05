@@ -33,3 +33,12 @@ It's designed for accurate weight measurements with tare and calibration capabil
 ```bash
 git clone https://github.com/YOUR_USERNAME/hx711_cpp.git
 cd hx711_cpp
+
+
+2. Build it:
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+
