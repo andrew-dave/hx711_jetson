@@ -33,12 +33,24 @@ It's designed for accurate weight measurements with tare and calibration capabil
 ```bash
 git clone https://github.com/YOUR_USERNAME/hx711_cpp.git
 cd hx711_cpp
+```
+2. Install dependencies
+Make sure you have libgpiod, cmake, and g++ installed:
+```bash
+sudo apt update
+sudo apt install libgpiod-dev cmake g++
+```
 
-
-2. Build it:
+3. Build the project:
 
 ```bash
 mkdir build && cd build
 cmake ..
 make
+```
+
+4. Run the program:
+```bash
+sudo ./hx711
+```
 
