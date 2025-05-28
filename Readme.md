@@ -31,7 +31,7 @@ It's designed for accurate weight measurements with tare and calibration capabil
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hx711_cpp.git
+git clone https://github.com/andrew-dave/hx711_cpp.git
 cd hx711_cpp
 ```
 2. Install dependencies
